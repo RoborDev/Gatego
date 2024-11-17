@@ -1,0 +1,610 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background-color: #f1f1f1;
+}
+
+.container-fluid{
+  background-color: white;
+  height: 60px;
+}
+
+.custom-navbar{
+  width: 1200px;
+  position: relative;
+  left: 55px;
+  background-color: white;
+}
+
+.nav-H{
+  height: 60px;
+  background-color: white;
+}
+
+.navbar-top{
+  background-color: white;
+  border: 1.5px solid white;
+}
+
+.dropdown-head{
+  position: relative;
+  left: 375px;
+  margin-left: 20px;
+}
+
+.location{
+  margin-left: 10px;
+  color: #2196f3;
+}
+
+.location1{
+  margin-left: 10px;
+  color: #2196f3;
+  position: relative;
+  top: 12px;
+  left: -10px;
+}
+
+.location3{
+  margin-left: 10px;
+  color: #2196f3;
+  position: relative;
+  left: -10px;
+}
+/* OverView section  */
+.over{
+  position: relative;
+  top: -6px;
+}
+
+.overview{
+  position: relative;
+  left: 55px;
+  height: 65px;
+  line-height: 65px;
+  width: 1200px;
+  background-color: white;
+  font-weight: bold;
+  padding-left: 23px;
+  border-top: 1px;
+  font-size: 28px;
+
+}
+
+.overview-div{
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  left: 1140px;
+  bottom: 69px;
+  border-radius: 13px;
+  border: 1.5px solid whitesmoke;
+}
+
+.overview-icon{
+  color: #2196f3;
+  position: relative;
+  top: 8px;
+  
+}
+.head-h2{
+  position: relative;
+  left: -20px;
+}
+
+.icon-color{
+  color: #2196f3;
+  margin-right: 6px;
+}
+
+/* Sidebar */
+.whole-sidebar{
+  position: fixed;
+}
+.sidebar {
+  width: 55px;
+  height: 117vh;
+  background-color:white;
+  padding: 20px;
+  position: absolute;
+  top: -215px;
+}
+
+.plus-icon{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border: 1.5px solid whitesmoke;
+  border-radius: 9px;
+  position: relative;
+  top: 33px;
+  right: 14px;
+}
+
+.plus{
+  color: #2196f3;
+  position: relative;
+  right: -8px;
+  top: 7px; 
+  font-size: 25px; 
+}
+
+.house-icon{
+  height: 40px;
+  width: 40px; 
+  border: 1.5px solid whitesmoke;
+  border-radius: 9px;
+  position: relative;
+  top: 63px;
+  right: 13px;
+}
+
+.house{
+  color: white;
+  position: relative;
+  right: 5px;
+  top: -6px; 
+  font-size: 18px;
+}
+
+
+.upAndDownArrow-icon{
+  height: 45px;
+  width: 45px;
+  background-color: white;
+  border: 1.5px solid whitesmoke;
+  border-radius: 9px;
+  position: relative;
+  top: 93px;
+  right: 14px;
+  transform: rotate(90deg);
+}
+
+.upAndDownArrow{
+  transform: rotate(90deg);
+  height: 24px;
+  width: 24px;
+  position: relative;
+  right: -8px;
+  top: 8px;
+}
+
+.movements{
+  position: relative;
+  right: 14px;
+}
+
+.UpandDownArrow-movement{
+  transform: rotate(180deg);
+  height: 20px;
+  width: 20px;
+  position: relative;
+  right: 5px;
+  top: -3px;
+}
+
+.sidebar-location-div{
+  height: 45px;
+  width: 45px;
+  background-color: white;
+  border: 1.5px solid whitesmoke;
+  border-radius: 9px;
+  position: relative;
+  top: 123px;
+  right: 14px;
+}
+
+.sidebar-location{
+  color: #2196f3;
+  position: relative;
+  right: -10px;
+  top: 10px;
+}
+
+.FD-icon{
+  height: 30px;
+  width: 30px;
+  border: 1.5px solid whitesmoke;
+  background-color: #bcdbf5;
+  position: relative;
+  top: 380px;
+  right: 11px;
+  border-radius:30px ;
+}
+
+.FD{
+  position: relative;
+  top: 7px;
+  left: 5px;
+}
+
+.gear-icon{
+  background-color: white;
+  position: relative;
+  top: 350px;
+  right: 11px;
+}
+
+.gear{
+  color:#2196f3;
+  position: relative;
+  right:-3px;
+  top: 7px; 
+  font-size: 23px; 
+}
+
+.logo {
+  position: relative;
+  left: 15px;
+}
+
+.gate{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.go{
+  font-weight: bold;
+  color: #2196f3;
+  font-family: 'Futura', 'Arial', sans-serif;
+}
+
+
+/* Main Content */
+
+.one-five{
+  font-size: large;
+}
+
+.road{
+  position: relative;
+  top: 13px;
+  left: -8px;
+}
+
+.colo{
+  position: relative;
+  left: -8px;
+}
+
+    /* Card Container */
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 390px;
+      height: 175px;
+      margin: 3px;
+      margin-top:30px;
+    }
+    .card2{
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 390px;
+      margin: 10px;
+      height: 375px;
+      margin-top: 25px;
+    }
+    
+    .card .info p {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5px;
+    }
+
+    /* Card Header */
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      background-color: white;
+    }
+
+    .card-location{
+      width: 130px;
+    }
+     
+    .card-rating{
+      position: relative;
+      left: 275px;
+      top: -23px;
+      width: 40px;
+     text-align: right;
+    }
+    
+    .card-rating2{
+      width: 90px;
+      position: relative;
+      left: 235px;
+      top: -20px;
+    }
+    
+    .card-rating3{
+      width: 90px;
+      position: relative;
+      left: 155px;
+    }
+
+    .card-container {
+      display: flex;
+      gap: 15px;
+    }
+    
+
+    /* Card Header */
+    .card-header h2 {
+      /* color: #0d6efd; */
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    /* Card Styling */
+  .card-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 80px;
+    top: -50px;
+    width: 1100px;
+  }
+  .card-container2{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 80px;
+    top: -50px;
+    width: 1100px;
+    height: 400px;
+  }  
+
+  .view-all {
+      font-size: 14px;
+      color: #0d6efd;
+      text-decoration: none;
+    }  
+
+    /* Icons */
+    .card-item i {
+      margin-right: 8px;
+      color: #adb5bd;
+    }
+
+    .arrow{
+      width: 10px;
+      height: 10px;
+    }
+    
+
+.content {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+.header-actions button {
+  background-color: #e5e5e5;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+/* Progress Bar */
+.progress {
+  border-radius: 4px;
+  overflow: hidden;
+  height: 20px;
+  width: 48px;
+  margin: 10px 0;
+}
+
+    /* Card Container */
+    .view-all {
+      font-size: 14px;
+      color: #2196f3;
+      text-decoration: none;
+    }
+
+    /* Progress Section */
+    .progress-bar {
+      width: 80%;
+      height: 27px;
+      background-color: #e9ecef;
+      border-radius: 6px;
+      overflow: hidden;
+      margin-top: 10px;
+      margin-left: 65px;
+    }
+    .progress-bar1 {
+      width: 80%;
+      height: 27px;
+      background-color: #e9ecef;
+      border-radius: 6px;
+      overflow: hidden;
+      margin-top: 10px;
+      margin-left: 53px;
+    }
+
+    .progress-bar-location{
+      width: 280px;
+      height:4px;
+      background-color: #e9ecef;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .progress-bar-fill {
+      width: 40%; /* Example usage percentage */
+      height: 30px;
+      background-color: #2196f3;
+     border-radius: 10px;
+    }
+
+    .capacity-info {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      color: #6c757d;
+      margin-top: 10px;
+      position: relative;
+      top: -30px;
+    }
+
+    /* Yard Info */
+    .yard-info {
+      position: relative;
+      top: -30px;
+      margin: 10px 5;
+    }
+
+    .yard-info1 {
+      position: relative;
+      top: -30px;
+      margin: 10px 5;
+      left: -6px;
+    }
+
+    .yard-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10px;
+      font-size: 14px;
+      position: relative;
+      top: -20px;
+    }
+    .hrr{
+      position: relative;
+      top: -30px;
+    }
+
+    .spot{
+      position: relative;
+      left: 7px;
+    }
+
+    .usage{
+      position: relative;
+      left: 7px;
+      font-weight: bold;
+    }
+
+    .yard{
+      position: relative;
+      top: 1px;
+      font-weight: bold;
+    }
+
+    /* Issues Section */
+    .issue-item {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .issue-item2 {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      font-size: 14px;
+      color: #333;
+      position: relative;
+      top: -6px;
+    }
+
+    .issue-alert2{
+      padding: 2px 5px;
+      border-radius: 5px;
+      margin-left: auto;
+      background-color: #bcdbf5;
+      color:#2196f3;
+      font-weight: bolder;
+      margin-right: 15px;
+    }
+
+    .issue-item img {
+      width: 30px;
+      height: 30px;
+      border-radius: 4px;
+      margin-right: 10px;
+    }
+
+    .issue-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .fourty-percent{
+      font-size: 24px;
+      width: 50px;
+      color: #2196f3;
+      font-weight: bold;
+      position: relative;
+      top: 47px;
+    }
+
+    .percent-div{
+     position: relative;
+     top: -44px;
+    }
+
+    .max{
+    position: relative;
+    left: -50px;
+    }
+
+    .blue-circle{
+      color: #2196f3;
+      font-size: 10px;
+    }
+    
+    .gray-circle{
+      color:rgb(227, 226, 226) ;
+      font-size: 10px;
+    }
+
+    .issue-alert, .issue-alert-inner {
+      background-color: red;
+      color: white;
+      font-size: 10px;
+      margin-left: auto;
+      border-radius: 100%;
+      width: 15px;
+      height: 15px;
+      text-align: center;
+      justify-content: center;
+      line-height: 15px;
+    }
+
+    .issue-alert-inner{
+      background-color:#adb5bd;
+      padding: 2px 5px;
+      border-radius: 100%;
+      margin-left: auto;
+    }
+
+    .inspect{
+      position: relative;
+      left: -119px;
+      top: 28px;
+      font-weight: 500;
+    }
+
+  

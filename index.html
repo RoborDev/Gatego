@@ -1,0 +1,344 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gatego</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Local css -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+    <!-- font-Awesome  -->
+    <script
+      src="https://kit.fontawesome.com/c387b60d35.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary custom-navbar"
+      aria-label="Thirteenth navbar example"
+    >
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample11"
+          aria-controls="navbarsExample11"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse d-lg-flex head-navbar nav-H"
+          id="navbarsExample11"
+        >
+          <a class="navbar-brand col-lg-3 me-0" href="#"
+            ><div class="logo">
+              <p class="gate">gate<strong class="go"><img src="Images/Combined-Shape.svg" alt=""></strong></p>
+            </div></a
+          >
+          <ul class="navbar-nav col-lg-6 justify-content-lg-center">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle dropdown-head"
+                href="#"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                > <img class="icon-color" src="Images/truck-ramp-box-solid 1.svg" alt="">All Carriers</a
+              >
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle dropdown-head"
+                href="#"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fa-solid fa-location-dot location"></i> All
+                Locations</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="over">
+      <h1 class="overview">Overview</h1>
+    </div>
+    
+    <div class="overview-div">
+      <i class="fa-solid fa-arrows-rotate overview-icon"></i>
+    </div>
+    <!-- Add more links if necessary -->
+    <div class="whole-sidebar">
+      <div class="sidebar">
+        <div class="plus-icon">
+          <i class="fa-solid fa-plus  plus"></i>
+        </div>
+
+        <div class="house-icon">
+          <img class="house" src="Images/Overview.svg" alt="">
+        </div>
+
+        <div class="UpandDownArrow-icon">
+          <img class="UpandDownArrow" src="Images/Frame.svg" alt="" />
+        </div>
+
+        <div class="sidebar-location-div">
+         <img class="sidebar-location" src="Images/FrameSB.svg" alt="">
+        </div>
+
+        <div class="gear-icon">
+          <i class="fa-solid fa-gear fa-2x gear"></i>
+        </div>
+        <div class="FD-icon">
+          <img class="FD" src="Images/FD.svg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="card-container">
+      <!-- Movements Card -->
+      <div class="card">
+        <div class="card-header">
+          <h2 class="movements">
+            <img class="UpandDownArrow-movement" src="Images/Frame.svg" alt="" />
+            Movements</h2>
+          <a href="#" class="view-all">View all</a>
+        </div>
+        <div class="card-item">
+          <div><i class="fas fa-arrow-right"></i> Check Ins</div>
+          <div class="card-rating">142</div>
+        </div>
+        <div class="card-item">
+          <div><i class="fas fa-arrow-left"></i> Check Outs</div>
+          <div class="card-rating">125</div>
+        </div>
+      </div>
+
+      <!-- Yard Card -->
+      <div class="card">
+        <div class="card-header">
+          <h2 class="head-h2"><i class="fa-solid fa-location-dot icon-color"></i> 
+            Yard</h2>
+          <a href="#" class="view-all">View all</a>
+        </div>
+        <div class="card-item">
+          <div><i class="fa-solid fa-trailer"></i> Trailer Count</div>
+          <div class="card-rating">154</div>
+        </div>
+        <div class="card-item">
+          <div><i class="fas fa-truck"></i> Truck Count</div>
+          <div class="card-rating">75</div>
+        </div>
+      </div>
+
+      <!-- Trailer status Card -->
+      <div class="card">
+        <div class="card-header">
+          <h2 class="head-h2"><i class="fa-solid fa-check icon-color"></i> Trailer Status</h2>
+        </div>
+        <div class="card-item">
+          <div><i class="fa-solid fa-circle"></i> Loaded</div>
+          <div class="card-rating">71</div>
+        </div>
+        <div class="card-item">
+          <div><i class="fa-regular fa-circle"></i> Empty</div>
+          <div class="card-rating">83</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-container2">
+      <!-- Yard Capacity Card -->
+      <div class="card2">
+        <div class="card-header">
+          <h2><i class="fas fa-truck icon-color"></i> Yard Capacity</h2>
+          <a href="#" class="view-all">View all</a>
+        </div>
+
+        
+          <hr>
+        <p class="usage">Usage</p>
+        <div class="percent-div">
+          <p class="fourty-percent">40%</p>
+          <div class="progress-bar1">
+            <div class="progress-bar-fill"></div>
+          </div>
+        </div>
+       
+        <div class="capacity-info">
+          <div class="spot">
+            <i class="fa-solid fa-circle blue-circle"></i>
+            Spot Used:
+            <span style="color: #0d6efd; font-weight: bold">154</span>
+          </div>
+          <div class="max"><i class="fa fa-circle gray-circle"></i> Max Capacity 800</div>
+        </div>
+     <hr class="hrr">
+
+        <div class="yard-info1">
+          <p class="yard">Yards</p>
+          <div class="yard-item">  
+            <span class="card-location">           
+            <div>
+              <i class="fa-solid fa-location-dot location1"></i> <span class="road">Mines Road
+                <span class="card-rating2"> <span class="one-five">154 /</span> 400</span>
+              </span>
+              
+              <div class="progress-bar-location">
+                <div class="progress-bar-fill"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="yard-item">
+            <span class="card-location">
+            <div>
+              <i class="fa-solid fa-location-dot location3"></i>
+             <span>
+               <span class="colo">Colombia</span>
+                <span class="card-rating3"><span class="one-five">0/</span>400</span>
+              </span>
+              
+              <div class="progress-bar-location"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card2">
+        <div class="card-header">
+          <h2><i class="fa-solid fa-wrench icon-color"></i> Issues</h2>
+          <a href="#" class="view-all">View all</a>
+        </div>
+        <hr>
+
+        <div class="issue-item">
+          <span style="font-weight: bold">
+            <span class="issue-alert-inner">!</span> Open Issues</span
+          >
+          <span class="issue-alert2">46</span>
+        </div>
+    
+        <br><p>Most recent</p>
+        <div class="issue-item">
+          <img src="Images/trailerback.png" alt="Issue Image" />
+          <div class="issue-info">
+            <span>53138</span>
+            <span>Missing Hose</span>
+          </div>
+          <span class="issue-alert">!</span><img style="width: 8px; height: 16px; margin-left: 2px;" src="Images/caret-right.svg" alt="">
+        </div>
+        <div class="issue-item">
+          <img src="Images/tireleg.png" alt="Issue Image" />
+          <div class="issue-info">
+            <span>2405</span>
+            <span>Dent Inside</span>
+          </div>
+          <span class="issue-alert">!</span><img style="width: 8px; height: 16px; margin-left: 2px;" src="Images/caret-right.svg" alt="">
+        </div>
+        <div class="issue-item">
+          <img src="Images/truckbody.png" alt="Issue Image" />
+          <div class="issue-info">
+            <span>5478</span>
+            <span>Exterior Damage</span>
+          </div>
+          <span class="issue-alert">!</span><img style="width: 8px; height: 16px; margin-left: 2px;" src="Images/caret-right.svg" alt="">
+        </div>
+        <div class="issue-item">
+          <img src="Images/tailerbackView.png" alt="Issue Image" />
+          <div class="issue-info">
+            <span>580</span>
+            <span>Flat Tire</span>
+          </div>
+          <span class="issue-alert">!</span><img style="width: 8px; height: 16px; margin-left: 2px;" src="Images/caret-right.svg" alt="">
+        </div>
+      </div>
+
+      <!-- Tire Inspections -->
+      <div class="card2">
+        <div class="card-header">
+          <h2><img class="icon-color"style="height:15px; width: 15px;" src="Images/tire-solid.svg" alt="">Tire Inspections</h2>
+          <a href="#" class="view-all">View all</a>
+        </div>
+        <hr>
+
+        <div class="issue-item">
+          <span style="font-weight: bold">
+            <span class="issue-alert-inner">!</span> Failed Inspections</span
+          >
+          <span class="issue-alert2">7</span>
+        </div>
+    
+        <br><p>Latest Inspection</p>
+        <div class="issue-item">
+          <img src="Images/bottomtire.png" alt="Issue Image" />
+          <div class="issue-info">
+            <span>106</span>
+            <span> <img class="tire-sm" style="width: 14px; height: 14px; margin-right: 4px;" src="Images/tire.svg" alt="">Position 5, 4/32nds</span>
+          </div>
+          <span class="issue-alert">!</span><img style="width: 8px; height: 16px; margin-left: 2px;" src="Images/caret-right.svg" alt="">
+        </div>
+        <div class="issue-item">
+          <img src="Images/tiltbottomtire.png" alt="Issue Image" />
+          <div class="issue-info">
+            <span>528136</span>
+            <span><img style="width: 14px; height: 14px; margin-right: 4px;" src="Images/tire.svg">Position 1, 0/32nds</span>
+          </div>
+          <span class="issue-alert">!</span><img style="width: 8px; height: 16px; margin-left: 2px;" src="Images/caret-right.svg" alt="">
+        </div>
+        <div class="issue-item">
+          <img src="Images/tireleg.png" alt="Issue Image" />
+          <div class="issue-info">
+            <span>101</span>
+            <span><img style="width: 14px; height: 14px; margin-right: 4px;" src="Images/tire.svg">Position 1, 3/32nds</span>
+          </div>
+          <span class="issue-alert">!</span><img style="width: 8px; height: 16px; margin-left: 2px;" src="Images/caret-right.svg" alt="">
+        </div>
+        <div class="issue-item">
+          <img src="Images/trailerback.png" alt="Issue Image" />
+          <div class="issue-info">
+            <span>536518</span>
+            <span><img style="width: 14px; height: 14px; margin-right: 4px;" src="Images/tire.svg" alt="">Position 7, 4/32nds</span>
+          </div>
+          <span class="issue-alert">!</span><img style="width: 8px; height: 16px; margin-left: 2px;" src="Images/caret-right.svg" alt="">
+        </div>
+      </div>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
